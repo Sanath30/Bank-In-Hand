@@ -1,0 +1,39 @@
+div
+{
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+background-image: linear-gradient(to right,aquamarine,lightgreen);
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #0d0101;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(17, 1, 1);
+    color: rgb(18, 231, 100);
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(8, 8, 8);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }

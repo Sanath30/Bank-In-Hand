@@ -1,0 +1,143 @@
+<!DOCTYPE  html>
+<html lang="en">
+
+    <head>
+        <title>WELCOME TO THE BANK WORLD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="C:\Users\WIN10\CSS\NEW.css" rel="stylesheet">
+
+        <style>
+            .leftbox {
+                float: left;
+                width: 33%;
+                margin-left: 50px;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                height: auto;
+            }
+
+            .middlebox {
+                float: left;
+                width: 33%;
+                margin-left: 130px;
+                margin-right: 130px;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                height: auto;
+            }
+
+            .rightbox {
+                float: right;
+                width: 33%;
+                margin-right: 50px;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                height: auto;
+            }
+
+            .container {
+                position: relative;
+                width: 25%;
+            }
+
+            .image {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 20px;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .2s ease;
+                background-color: #d7837f;
+                border-radius: 20px;
+            }
+
+            .container:hover .overlay {
+                opacity: 1;
+            }
+
+            .text {
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+        </style>
+    </head>
+    
+    <body style="background-color: rgb(252,118,106);">
+
+        <h1 style="background-color: #d7837f; font-family: sans-serif; font-size: 300%; font-weight: bolder; "><center> BANK IN HAND</center></h1>
+
+        <h3 style="background-color: rgb(252,118,106); font-family: sans-serif;  font-weight: bolder; "><center>CHOOSE YOUR BANK</center></h3>
+
+        <div class="container leftbox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\SBIFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\SBI-Logo-PNG-New.png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">SBI</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="container middlebox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\CBFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\Canara Bank Limited Logo.png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">CANARA BANK</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="container rightbox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\HDFCFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\hdfc-bank-logo_regular-2.png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">HDFC</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="container leftbox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\ICICIFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\ii (1).png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">ICICI</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="container middlebox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\INFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\59385226.png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">INDIAN BANK</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="container rightbox">
+            <a href="C:\Users\dsana\Desktop\DBMS Project\SIBFORM.html">
+                <img src="C:\Users\dsana\Desktop\DBMS Project\Images\South-Indian-Bank-Logo.png" alt="Avatar" class="image" style="width: 100%; height: 216px">
+                <div class="overlay">
+                    <div class="text">SIB</div>
+                </div>
+            </a>
+        </div>
+    </body>
+    </html>

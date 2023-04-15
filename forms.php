@@ -1,0 +1,271 @@
+<style>
+  label {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  button {
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: aquamarine;
+    background-image: linear-gradient(to left, rgb(2, 18, 13), rgb(2, 19, 2));
+  }
+
+  input {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: transparent;
+  }
+
+  h1 {
+    color: black;
+    font-size: 300%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  a {
+    color: black;
+    font-weight: bolder;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-variant: normal;
+    font-size: larger;
+  }
+
+  h3 {
+    font-size: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  div {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+
+  .info {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  p {
+    color: black;
+  }
+
+  .panel {
+    font-size: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #121111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(17, 1, 1);
+    color: rgb(18, 231, 100);
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: rgb(8, 8, 8);
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .topnav-right {
+    background-color: aquamarine;
+    color: rgb(8, 8, 8);
+    float: right;
+  }
+
+  .option {
+    border: none;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+    color: #121111;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 420px;
+    margin-top: 45px;
+    border-radius: 10px;
+  }
+
+  .option:hover {
+    background-color: rgb(17, 1, 1);
+    color: black;
+  }
+
+  .choice {
+    border: none;
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+    color: #121111;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 525px;
+    height: 75px;
+    margin-top: 125px;
+    border-radius: 10px;
+    border-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .choice:hover {
+    background-color: rgb(17, 1, 1);
+    color: black;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 525px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-image: linear-gradient(to right, black, black);
+    color: aquamarine;
+    border-radius: 10px;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+  .box {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    width: 900px;
+    margin-top: 45px;
+    border-radius: 10px;
+  }
+
+  .boxes {
+    background-image: linear-gradient(to left, aquamarine, lightgreen);
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+</style>
